@@ -17,7 +17,19 @@ android.ndk = 25b
 presplash.filename =
 # (str) Icon
 icon.filename =
+# (str) Application version
+version = 0.1
+# (str) Version regex (optional, leave commented if using simple version)
+# version.regex =
+# (str) Orientation
+orientation = portrait
+# (list) Permissions
+android.permissions = INTERNET
 
 [buildozer]
 # (int) Log level
 log_level = 2
+# (str) Build directory
+build_dir = .buildozer
+# (str) Bin directory
+bin_dir = bin
